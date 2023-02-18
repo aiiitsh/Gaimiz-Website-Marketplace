@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <?php
+  session_start();
+ 
+?>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gaimiz | Home </title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style - Copy.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body id="top">
+<!--<script>
+    function hamadacounter(){       
+        document.getElementById("counter_circle").innerHTML= $_SESSION['count'];
+    }
+</script>
+  
+    - #HEADER
+  -->
+
+  <header>
+
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.png" height="80" width="170" alt="NAFT logo">
+      </a>
+
+      <div class="header-right">
+
+        <div class="header-nav-wrapper">
+
+          <button class="navbar-toggle-btn" data-navbar-toggle-btn>
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
+
+          <nav class="navbar" data-navbar>
+
+            <ul class="navbar-list">
+
+              <li>
+                <a href="home.html" class="navbar-link">Home</a>
+              </li>
+
+              <li>
+                <a href="https://youtu.be/MLBEdOa5vh8" class="navbar-link">About</a>
+              </li>
+
+              <li>
+                <a href="#" class="navbar-link">laptop Skin</a>
+              </li>
+
+              <li>
+                <a href="https://m.facebook.com/106948704507789/" class="navbar-link">Console Skin</a>
+              </li>
+
+              
+
+              
+
+              <li>
+                <a href="https://m.facebook.com/106948704507789/" class="navbar-link">Contact</a>
+              </li>
+              <a href="https://www.jumia.com/">
+                <img alt="Qries" src="cart-70-512.png"width="25px" height="25px" />
+             </a>
+             <span  class="counter_circle"><center id="counter_circle">
+              <?php
+              echo($_SESSION['count']);
+              ?>
+             </center></span>
+            </ul>
+
+          </nav>
+
+        </div>
+
+        <div class="header-actions">
+          <input type="search" placeholder="Search" class="search-field">
+         <form action="login.php">
+             <button class="btn btn-primary">Sign in</button>
+          </form>
+        </div>
+
+      </div>
+
+    </div>
+
+  </header>
+
+
+
+
+
+  <main>
+
+ 
+
+
+
+
+
+      <!-- 
+        - #NEW PRODUCT
+      -->
+
+      <section class="new-product">
+        <div class="container">
+
+         <div class="hero-content">
+
+            <h1 class="h1 hero-title">Gaimiz Skin For Dell G3 <br> <span> Anti-Scratch</span></h1>
+
+            
+
+
+          </div>
+          
+          <div class="form-box">
+            
+          
+
+            
+            <img src="./assets/images/new-item-1.jpg" width= 1100 px; width= 1200 px; padding: 600px 0; alt="Dimond riding a blue body art">
+
+          </div>
+        <form action="teest.php"  method="post">
+            <button class="btn btn-primary" name="buy" >Buy Now</button>
+         </form>            
+        </div>
+
+        
+        
+      </section>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
